@@ -1,11 +1,11 @@
 <?php
 
-$score = 20;
+$score = 10;
 
 if ($score >= 60) {
     echo '合格です';
-}else($score >= 30 && $score < 60) {
+} elseif ($score >= 30 && $score <= 60) {
     echo '追試です';
-}else($score <= 30) {
+} else {
     echo '不合格です';
 }
